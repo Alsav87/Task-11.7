@@ -1,0 +1,38 @@
+.notOnScreen{
+    display: none;
+    }
+    .calc-row {
+    height: 100vh;
+    font-family: 'Share Tech Mono', monospace;
+    }
+
+    .input-window {
+    text-align: end;
+    font-size: x-large;
+    }
+    
+    body {
+      text-align: center;
+      margin: 10;
+      font-family: Verdana, Arial, sans-serif;
+      font-size: 16px;
+    }
+
+    
+    button{
+      font-family: Verdana, Arial, sans-serif;
+      font-size: 16px;
+      margin: 10px;
+      padding: 10px;
+    }
+    .game-container {
+        position: relative;
+        margin: 0 auto;
+        width: 840px;
+        height: 340px;
+        bottom: auto;
+        border: black;
+        background-color:cornflowerblue;
+        
+    }
+

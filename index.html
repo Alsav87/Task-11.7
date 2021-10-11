@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Загадай число</title>
+
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<div class= "game-container">
+	<p id="startText">Загадайте целое число от 0 до 100, и компьютер угадает его за 7 попыток!</p>
+	<button onclick="start()" id="startButton">Начать игру!</button>
+    <p id="question"></p>
+    <br>
+    <button id="small" onclick="smallClick()" class="notOnScreen">Меньше</button>
+    <button id="bingo" onclick="bingoClick()" class="notOnScreen">Угадал!</button>
+    <button id="big" onclick="bigClick()" class="notOnScreen">Больше</button>
+    <br>
+    <br>
+    <br>
+    <button id = "again" onclick ="againClick()" class="notOnScreen"> Заново</button>
+	</div> 
+	<script src="script.js"></script> 
+</body>
+</html>
